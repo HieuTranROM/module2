@@ -1,4 +1,4 @@
-package ss11.kiem_tra_chuoi_Palindrome_su_dung_Queue;
+package ss11.bai_tap.kiem_tra_chuoi_Palindrome_su_dung_Queue;
 
 import java.util.LinkedList;
 import java.util.Queue;
