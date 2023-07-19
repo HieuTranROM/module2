@@ -2,16 +2,16 @@ package ss10.bai_tap.trien_khai_cac_phuong_thuc_cua_arraylist;
 
 public class MyListTest {
 
-        public static void main(String[] args) {
-            MyList<Integer> integerMyList = new MyList<>();
-            integerMyList.add(1);
-            integerMyList.add(1,3);
-            integerMyList.add(2,5);
+    public static void main(String[] args) {
+        MyList<Integer> integerMyList = new MyList<>();
+        integerMyList.add(1);
+        integerMyList.add(1, 3);
+        integerMyList.add(2, 5);
 
-            System.out.println("\nDisplay array list: ");
-            for (int i = 0; i < integerMyList.size; i++) {
-                System.out.println(integerMyList.get(i));
-            }
+        System.out.println("\nDisplay array list: ");
+        for (int i = 0; i < integerMyList.size; i++) {
+            System.out.println(integerMyList.get(i));
+        }
 
         integerMyList.remove(2);
         System.out.println("\nArray list after remove: ");
@@ -38,12 +38,12 @@ public class MyListTest {
             System.out.println(integerMyList.get(i));
         }
 
-            MyList<Integer> myListClone = new MyList<>();
-            myListClone = integerMyList.clone();
-            System.out.println("\nDisplay array list clone: ");
-            for (int i = 0; i < myListClone.size; i++) {
-                System.out.println(myListClone.get(i));
-            }
+        MyList<Integer> myListClone = new MyList<>();
+        myListClone = integerMyList.clone();
+        System.out.println("\nDisplay array list clone: ");
+        for (int i = 0; i < myListClone.size; i++) {
+            System.out.println(myListClone.get(i));
         }
     }
+}
 

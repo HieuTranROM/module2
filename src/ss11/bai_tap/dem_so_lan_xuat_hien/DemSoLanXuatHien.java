@@ -1,7 +1,9 @@
 package ss11.bai_tap.dem_so_lan_xuat_hien;
+
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
+
 public class DemSoLanXuatHien {
 
     public static void main(String[] args) {
@@ -39,6 +41,6 @@ public class DemSoLanXuatHien {
 
         scanner.close();
     }
-    }
+}
 
 

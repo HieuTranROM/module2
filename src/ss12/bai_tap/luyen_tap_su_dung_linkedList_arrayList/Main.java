@@ -26,7 +26,7 @@ public class Main {
         System.out.println("Sap xep theo gia giam dan, neu gia bang nhau thi sap xep giam dan theo ten:");
         products.stream().forEach(p -> System.out.println(p));
 
-        Product updateProduct = new Product(1,"vang",50000);
+        Product updateProduct = new Product(1, "vang", 50000);
         if (productManager.editProduct(updateProduct)) {
             System.out.println("Cap nhat san pham thanh cong");
         } else {
